@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxes</title>
+</head>
+<body>
+    
+    <style>
+        .basic{
+            height: 200px;
+            width: 200px;
+            background-color: #D69ADE;
+            border: 2px solid black;
+            display: flex;
+            gap: 20px;
+        }
+
+        .rounded{
+            line-height:  100px;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border-radius: 10px;
+            background-color: #CAE0BC;
+        }
+        .round{
+            height: 200px;
+            width: 200px;
+            border-radius: 300px;
+            background-color: yellow;
+            text-align: center;
+        }
+
+        .shadow{
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+        }
+
+        .hover{
+            height: 200px;
+            width: 200px;
+            background-color: palegreen;
+            transition: scale(1.1);
+        }
+        .hover:hover{
+            transform: scale(1.1);
+            background-color: blue;
+        }
+        .img1{
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+    <a href="https://www.youtube.com/watch?v=fdGWRq1dVBA"> Cars Website
+    </a>
+    <div class="basic"> <img class = "img1"src="Images/image1.jpg" alt="">
+    </div>
+    <div class="rounded"> Box 2</div>
+    <div class="round"> Box 3</div>
+    <div class="shadow"> Box 4</div>    
+    <div class="hover"> Box 5</div>
+</body>
+</html>
